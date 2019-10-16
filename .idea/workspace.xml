@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="B6-mandarin:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ada1be3-8fb7-48b7-a8b9-2bd60d4f2edc" name="Default Changelist" comment="" />
+    <list id="5e526603-7554-40e6-b41c-431dbaa82c9f" name="ignored" comment="ignored">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/B6_mandarin_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B6-mandarin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/META-INF/B6-mandarin.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Announcement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/BookDeleteRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/BorrowRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Category_Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Librarian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Library.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/basic/ResrveRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/controller/BookInfomationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/controller/test/HelloWorldController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/dao/AdminCl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/dao/ReaderCl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/AddBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/AdminLoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/BookInformationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/ReaderLoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/RegisterLibrarian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/RegisterLibrarianServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/SearchBookResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/servlet/VisitorSearchBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/util/BarcodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/classes/com/mandarin/util/JsonSolve.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring MVC-4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring MVC-4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring MVC-4.3.18.RELEASE/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring MVC-4.3.18.RELEASE/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/Spring-4.3.18.RELEASE/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/barcode4j-light-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/postgresql-42.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/all_lib_bak/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/barcode4j-light-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/barcode_lib/barcode4j-light-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jsonobj_lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jsonobj_lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jsonobj_lib/commons-lang-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jsonobj_lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jsonobj_lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jsonobj_lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/jstl_lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/postgresql-42.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/postgresql_lib/postgresql-42.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/annotations-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/catalina-ant.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/catalina-ha.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/catalina-storeconfig.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/catalina-tribes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/catalina.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/ecj-4.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/el-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/jasper-el.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/jasper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/jaspic-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-coyote.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-dbcp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-i18n-es.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-i18n-fr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-i18n-ja.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-i18n-ru.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-jdbc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-jni.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-util-scan.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/tomcat-websocket.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/lib/tomcat_lib/websocket-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/c-1_0-rt.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/c-1_0.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/c.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/fmt-1_0-rt.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/fmt-1_0.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/fmt.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/fn.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/permittedTaglibs.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/scriptfree.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/sql-1_0-rt.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/sql-1_0.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/sql.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/x-1_0-rt.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/x-1_0.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/tld/x.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/admin/ChangeAdminPw.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/admin/LibrarianList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/admin/adminMainPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/admin/alter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/AddBookOk.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/dropdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/dropdown/jquery.dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/dropdown/jquery.dropdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/dropdown/jquery插件库.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/dropdown/m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/dropdown/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/dropdown/www.jq22.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/aro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/arrow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/bi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/blg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/blg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/blg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/boy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/e1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/e2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/e3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/e4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/ey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/fa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/gl-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/gl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/grace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/green-grace-c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/grid-n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/holiday.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/ima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/leaf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/magnifier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/mom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/poli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/qua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/scroll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/sea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/sing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/sprit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/touxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/images/unl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/checkinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/jquery.dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/jquery.dropdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/librarian/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/Librarian.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/background/error-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/big/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/big/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/big/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/custom-select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/logo-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/logo-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/users/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/users/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/images/users/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/FAQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/NEWS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-eu-gdp-growth.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-japan-gdp-growth.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/data-usa-gdp-growth.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/ajax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/annotating/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-multiple/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/africa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/antarctica" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/asia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/australasia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/backward" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/etcetera" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/europe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/factory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/iso3166.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/leapseconds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/northamerica" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/pacificnew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/solar87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/solar88" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/solar89" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/southamerica" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/systemv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/yearistype.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time-zones/tz/zone.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/axes-time/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/basic-options/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/basic-usage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/canvas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/examples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/image/hs-2004-27-a-large-web.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/image/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/interacting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/navigate/arrow-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/navigate/arrow-left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/navigate/arrow-right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/navigate/arrow-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/navigate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/percentiles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/realtime/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/resize/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/selection/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/series-pie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/series-toggle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/series-types/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/shared/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/stacking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/symbols/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/threshold/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/tracking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/visitors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/assets/plugins/flot/examples/zooming/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/bookinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/css/landing-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/css/landing-page.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/css/load.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/css/load.css.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/css/reader-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/aro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/arrow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/bg-masthead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/ey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/fa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/ima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/magnifier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/scroll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/sea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/sprit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/touxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/images/unl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/img/bg-masthead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/reader.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_call-to-action.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_masthead.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_showcase.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_testimonials.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/scss/landing-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/searchbook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/visitor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/youke-bookinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/reader/youke-searchbook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/views/test/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/BebasNeue-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/BebasNeue-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/BebasNeue-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/BebasNeue-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/Dharma Type Font License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/fontomas-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/fontomas-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/fontomas-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/fontomas-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/franchise-bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/franchise-bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/franchise-bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/fonts/franchise-bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/landing-page.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/images/bg-masthead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/images/fa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/images/g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/images/sprit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/images/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/images/touxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/B6_mandarin_war_exploded/public/admin/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/META-INF/B6-mandarin.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Announcement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/BookDeleteRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/BorrowRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Category_Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Librarian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Library.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/basic/ResrveRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/controller/BookInfomationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/controller/test/HelloWorldController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/dao/AdminCl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/dao/ReaderCl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/AddBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/AdminLoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/BookInformationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/ReaderLoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/RegisterLibrarian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/RegisterLibrarianServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/SearchBookResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/servlet/VisitorSearchBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/util/BarcodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/B6-mandarin/com/mandarin/util/JsonSolve.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="1411" selection-start-line="30" selection-start-column="1411" selection-end-line="30" selection-end-column="1411" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B6-mandarin.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/controller/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/controller/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/controller/RegisterLibrarianServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/util/BarcodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/controller/test/BookInfomationController.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/util/JsonSolve.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/controller/BookInfomationController.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/AddBookServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/BookInformationServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/Announcement.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/BookDeleteRecord.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/BorrowRecord.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/Category.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/Category_Book.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/Library.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/Reader.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/ResrveRecord.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/Librarian.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/basic/Admin.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/AdminLoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/SearchBookResult.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/VisitorSearchBook.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/dao/ReaderCl.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/RegisterLibrarian.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/dao/AdminCl.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/RegisterLibrarianServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/servlet/ReaderLoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/test/hello.jsp" />
+        <option value="$PROJECT_DIR$/src/com/mandarin/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/LibrarianList.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/ChangeAdminPw.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/alter.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/adminMainPage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="B6-mandarin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="B6-mandarin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="B6-mandarin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="B6-mandarin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="B6-mandarin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="B6-mandarin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mandarin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="B6-mandarin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="B6-mandarin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="B6-mandarin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="B6-mandarin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="B6-mandarin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="B6-mandarin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mandarin.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\public" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF\views\admin" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF\lib\jstl_lib" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF\public\admin" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF\lib\other_lib" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF\views\test" />
+      <recent name="D:\User\Desktop\proj\B6-mandarin\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="B6-mandarin:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/B6_mandarin_war_exploded" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/web/public">
+          <settings>
+            <option name="CONTEXT_PATH" value="/public" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_B6-mandarin_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52934" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="B6-mandarin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ada1be3-8fb7-48b7-a8b9-2bd60d4f2edc" name="Default Changelist" comment="" />
+      <changelist id="5e526603-7554-40e6-b41c-431dbaa82c9f" name="ignored" comment="" />
+      <created>1570715663802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570715663802</updated>
+      <workItem from="1570715754437" duration="13104000" />
+      <workItem from="1570838898323" duration="19970000" />
+      <workItem from="1571103793235" duration="1228000" />
+      <workItem from="1571210787484" duration="3375000" />
+      <workItem from="1571224229075" duration="767000" />
+    </task>
+    <task id="LOCAL-00001" summary="The now project.">
+      <created>1571225040667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571225040667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38444000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4970297" visible="true" weight="0.15618336" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.5029703" side_tool="true" weight="0.19146608" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3108253" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.28510183" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32618025" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970297" weight="0.30150753" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.5029703" side_tool="true" weight="0.19146608" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.31385282" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.28510183" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The now project." />
+    <option name="LAST_COMMIT_MESSAGE" value="The now project." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/SearchBookResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/VisitorSearchBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/RegisterLibrarianServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/BookInformationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/AddBookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/ReaderLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/RegisterLibrarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/librarian/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/assets/images/big/img1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/assets/images/big/img2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/assets/images/big/img4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/assets/images/custom-select.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/assets/images/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/assets/images/logo-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/assets/images/logo-text.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/librarian/dropdown/jquery插件库.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/librarian/dropdown/jquery.dropdown.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/librarian/dropdown/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/controller/BookInfomationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/servlet/AdminLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/controller/test/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/x.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/x-1_0-rt.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/x-1_0.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/c-1_0.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/sql.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/admin/css/style1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/admin/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reader/img/bg-masthead.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/admin/images/bg-masthead.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/c.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mandarin/util/BarcodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/admin/vendor/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/admin/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/admin/vendor/simple-line-icons/css/simple-line-icons.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/LibrarianList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/ChangeAdminPw.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/alter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/adminMainPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/librarian/js/easing.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/reader/js/easing.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="1411" selection-start-line="30" selection-start-column="1411" selection-end-line="30" selection-end-column="1411" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B6-mandarin.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>B6-mandarin:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (B6-mandarin)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|B6-mandarin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19772404" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Spring-4.3.18.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
